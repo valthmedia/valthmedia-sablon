@@ -107,9 +107,11 @@ export default function Home() {
       <footer className="bg-zinc-950 py-8 border-t border-zinc-900 text-center text-zinc-500 text-sm">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>© 2026 Valthmedia. Tüm hakları saklıdır.</p>
-          <p>İstanbul, Türkiye</p>
+          <p>İstanbul, Türkiye </p>
         </div>
       </footer>
     </main>
   );
 }
+
+  
