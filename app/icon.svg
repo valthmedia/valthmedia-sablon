@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" fill="none">
+  <defs>
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#4338ca" />
+      <stop offset="100%" stopColor="#6366f1" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0ea5e9" />
+      <stop offset="100%" stopColor="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#18181b" />
+      <stop offset="100%" stopColor="#3f3f46" />
+    </linearGradient>
+  </defs>
+  <!-- V & M Geometrik Amblem -->
+  <g transform="translate(5, 20)">
+    <path d="M35 110 L0 5 L35 5 L60 85 Z" fill="url(#darkGrad)"/>
+    <path d="M75 110 L40 5 L75 5 L100 85 Z" fill="url(#indigoGrad)"/>
+    <path d="M115 110 L80 5 L115 5 L140 85 Z" fill="url(#cyanGrad)"/>
+  </g>
+</svg>
