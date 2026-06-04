@@ -25,7 +25,6 @@ export default function Home() {
   };
 
   return (
-    // DİKKAT: pb-20 kaldırıldı, alt boşluk sıfırlandı!
     <main className="min-h-screen bg-white text-zinc-900 font-sans selection:bg-indigo-600 selection:text-white relative overflow-hidden">
       
       {/* ÜST BANNER */}
@@ -85,13 +84,13 @@ export default function Home() {
         </div>
       </header>
 
-      {/* HERO KISMI */}
+      {/* HERO KISMI - AKILLI MOBİL BOŞLUKLAR */}
       <section className="max-w-5xl mx-auto px-6 flex flex-col items-center text-center">
         
-        {/* Görünmez Üst Boşluk */}
-        <div className="w-full h-16 md:h-24"></div>
+        {/* MOBİLDE DAR (h-8), MASAÜSTÜNDE FERAH (md:h-24) GÖRÜNMEZ KUTU */}
+        <div className="w-full h-8 md:h-24"></div>
 
-        <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-indigo-50 border border-indigo-100/80 shadow-sm max-w-full" style={{ marginTop: '100px', marginBottom: '40px' }}>
+        <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-indigo-50 border border-indigo-100/80 shadow-sm mb-6 md:mb-10 max-w-full">
           <span className="flex h-2.5 w-2.5 rounded-full bg-indigo-600 animate-pulse flex-shrink-0"></span>
           <p className="text-xs md:text-sm font-semibold text-zinc-700 tracking-tight text-left">
             Lansman Paketi: <span className="text-indigo-600 font-extrabold">.COM Alan Adı Tescili + Hızlı Hosting</span> Fiyata Dahil!
@@ -103,11 +102,11 @@ export default function Home() {
           <span className="text-indigo-600">Hızlı, Modern ve Etkili Tasarımlar</span>
         </h1>
         
-        <p className="text-md md:text-lg text-zinc-600 max-w-2xl leading-relaxed" style={{ marginBottom: '40px' }}>
+        <p className="text-md md:text-lg text-zinc-600 max-w-2xl leading-relaxed mb-8 md:mb-10">
           <strong>Site yaptırmak</strong> hiç bu kadar kolay olmamıştı! İşletmeniz için SEO uyumlu, Google dostu ve lisanslı altyapıya sahip profesyonel <strong>web sitesi</strong> çözümlerini tescilli alan adınızla hazırlıyoruz.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto" style={{ marginBottom: '100px' }}>
+        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-16 md:mb-24">
           <a href="#fiyatlar" className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-bold transition-transform hover:scale-[1.02] text-center shadow-md">
             Kampanyalı Fiyat Listesini İncele
           </a>
@@ -181,7 +180,7 @@ export default function Home() {
 
             {/* 6. İNŞAAT & MİMARLIK */}
             <article className="col-span-1 md:col-span-5 w-full relative group rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 bg-zinc-900 border border-zinc-200/50" style={{ minHeight: '320px' }}>
-              <img src="https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=800" alt="İnşaat Mimarlık Şirket Sitesi" className="absolute inset-0 w-full h-full object-cover z-0 group-hover:scale-105 transition-transform duration-700 block" />
+              <img src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800" alt="İnşaat Mimarlık Şirket Sitesi" className="absolute inset-0 w-full h-full object-cover z-0 group-hover:scale-105 transition-transform duration-700 block" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10"></div>
               <div className="absolute bottom-6 left-6 right-6 z-20">
                 <span className="bg-orange-600/80 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Proje & Yapı</span>
